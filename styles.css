@@ -1,1 +1,170 @@
 
+.nav{
+    padding-top:5px;
+}
+li{
+    display:inline;
+}
+
+.about{
+    margin-left:10px;
+    padding:5px;
+}
+.store{
+    margin-left:10px;
+} 
+.gmail{
+    margin-right:10px;
+}
+.images{
+    margin-right:10px;
+}
+.icons{
+    width: 45px;
+    float:right;
+    margin-left: auto;
+    
+}
+.signin{
+    width:75px;
+    height:30px;
+    vertical-align: middle;
+    margin-top:-10px;
+    margin-left:10px;
+    background-color:#4285f4;
+    color:azure;
+    border-radius:4px;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.right{
+    float:right;
+    margin-right:5px;
+    padding-right:5px;
+}
+.left{
+    float:left;
+    margin-right:5px;
+    padding-left: 20px;
+    
+    
+}
+.footer{
+    background-color:#f2f2f2;
+    position: absolute;
+    bottom:0;
+    width:105%;
+    height:18px;
+    padding-top:3px;
+    padding-bottom:26px;
+    border:1px solid #e4e4e4;
+    margin-left:1px;
+    
+}
+
+.footer-right{
+    float:right;
+    margin-left:10px;
+}
+.footer-left{
+    float: left;
+    margin-left:auto;
+}
+.color{
+    color: rgb(106, 106, 107);
+    text-decoration: none;
+    padding:15px;
+}
+
+.logo{
+    margin:auto;
+    padding:10px;
+    width:75%;
+    text-align:center;
+    margin-top:150px;
+}
+
+.searchbar{
+    border-radius:20px;
+    width:500px;
+    height:40px;
+    border-style:solid;
+    border-color:rgba(201,202,201,0.973);
+}
+.bar{
+    margin:auto;
+    margin-top:25px;
+    border-radius:20px;
+    text-align:center;
+
+}
+.mic{
+   height:20px; 
+   margin-left:-33px;
+   margin-bottom:-5px;
+}
+
+.searchbuttons{
+    text-align:center;
+    margin-top:18px;
+    color: #5F6368;
+}
+.searchButton{
+    height:37px;
+    padding:5px;
+    margin:5px;
+    color: #3c4043;
+    border:1px solid #f8f9fa;
+    background-color: #f8f9fa;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a{
+  color:#222;
+  text-decoration: none;
+}
+
+body, button, a{
+    font-size:14px;
+    font-family:Arial, sans-serif;
+
+}
+button{
+
+}
+*{ margin-right: auto; margin-bottom: 0; margin-left: auto; }
+
+
+@media screen and (max-width: 414px) {
+    *{ margin-right: auto; margin-bottom: 0; margin-left: auto; }
+}
+
+@media screen and (max-width: 414px) {
+      .mic{
+          position:relative;
+          left:1px;
+      }
+
+@media screen and (max-width: 414px) {
+    .searchbar{
+        width:350px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .footer{
+        width:570px;
+        position:fixed;
+    }
+}
+}
+@media screen and (max-width: 414px) {
+    .footer-left{
+        padding-left:0px;
+        float: none;
+    }
+}
